@@ -1,0 +1,54 @@
+.root-main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.the-root {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-image: url("../assets/2.webp");
+  background-position: center;
+  width: 900px;
+  height: 650px;
+
+  transform: translate(-50%, -50%);
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#sharpei {
+    position:fixed;
+    top:50%;
+    left:50%;
+    display:flex;
+    background-color: rgba(0, 0, 0, 0.99);
+    color:white;
+    width:300px;
+
+    transform: translate(-50%, -50%);
+    border-radius:15px;
+    padding:15px;
+    text-align:center;
+    margin:15px;
+    border:none;
+    
+    
+}
+
+.sharpei-image {
+    width:150px;
+    height:150px;
+    border-radius:5px;
+    border: 2.5px solid grey;
+}
